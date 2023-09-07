@@ -65,3 +65,67 @@
    .card button:hover {
     background: #FF8CFF;
    }
+
+   @media screen and (min-width: 450px) {
+    .card {
+        width: 90%; 
+        max-width: 800px; 
+        
+    }
+
+    .card .img {
+        width: 100px;
+        height: 100px;
+        background: #6b64f3;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        position: relative;
+        left: -200px;
+       }
+       
+       .img img{
+        width: 180px;
+        border-radius: 15px;
+       }
+
+       
+   .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    font-size: 45px;
+    position: relative;
+    left: 50px;
+    top: -130px;
+   }
+   
+   .card .details {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: -130px;
+   }
+
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    background: #800080;
+    font-weight: 600;
+    position: relative;
+    left: 50px;
+    top: -120px;
+   }
+}
