@@ -71,6 +71,7 @@
         width: 90%; 
         max-width: 800px; 
         
+        
     }
 
     .card .img {
@@ -82,7 +83,7 @@
         margin-top: 25px;
         margin-bottom: 20px;
         position: relative;
-        left: -200px;
+        left: -150px;
        }
        
        .img img{
@@ -99,7 +100,7 @@
     padding-top: 5px;
     font-size: 45px;
     position: relative;
-    left: 50px;
+    left: 80px;
     top: -130px;
    }
    
@@ -111,7 +112,7 @@
     padding-top: 3px;
     font-size: 20px;
     position: relative;
-    left: 50px;
+    left: 80px;
     top: -130px;
    }
 
@@ -125,7 +126,7 @@
     background: #800080;
     font-weight: 600;
     position: relative;
-    left: 50px;
+    left: 80px;
     top: -120px;
    }
 }
