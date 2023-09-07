@@ -75,8 +75,8 @@
     }
 
     .card .img {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         background: #6b64f3;
         border-radius: 15px;
         margin: auto;
@@ -87,7 +87,7 @@
        }
        
        .img img{
-        width: 180px;
+        width: 200px;
         border-radius: 15px;
        }
 
