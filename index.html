@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend page Creation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="card">
+      <div class="card-border-top"></div>
+      <div class="img">
+        <img
+          src="img/slack-profile.jpg"
+      
+          alt="Superior"
+          data-testid="slackDisplayImage" />
+      </div>
+      <span data-testid="slackUserName">Superior</span>
+    <div class="details">
+        <p data-testid="currentDayOfTheWeek"></p>
+        <p data-testid="currentUTCTime"></p>
+        <p data-testid="myTrack">Frontend</p>
+    </div>
+      <button>
+        <a
+          href="https://github.com/yourusername/your-repo"
+          data-testid="githubURL"
+          >GitHub Repository</a
+        >
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
